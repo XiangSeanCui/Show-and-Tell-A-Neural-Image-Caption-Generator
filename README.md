@@ -1,1 +1,1 @@
-# Show_And_Tell
+Show and Tell: A Neural Image Caption Generator
