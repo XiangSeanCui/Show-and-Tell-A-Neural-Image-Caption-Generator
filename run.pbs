@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -q high -l nodes=1:ppn=16:xk
+#PBS -N bleu_layer3
+#PBS -l walltime=6:00:00
+#PBS -e $PBS_JOBNAME.$PBS_JOBID.err
+#PBS -o $PBS_JOBNAME.$PBS_JOBID.out
+#PBS -M xiangc5@illinois.edu
+cd /u/training/tra379/final_project/self_code_new
+. /opt/modules/default/init/bash
+module load bwpy/2.0.0-pre2
+module load cudatoolkit
+aprun -n 1 -N 1 python3 model_bleu.py --eval 'eval'
