@@ -1,13 +1,3 @@
-'''
-File: train.py
-Author: Yutong Dai (rothdyt@gmail.com)
-File Created: Sunday, 2018-11-18 14:42
-Last Modified: Sunday, 2018-11-18 14:43
---------------------------------------------
-Desscription:
-'''
-
-
 import torch
 import torchvision.transforms as transforms
 import os 

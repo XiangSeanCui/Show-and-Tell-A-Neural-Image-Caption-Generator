@@ -1,12 +1,3 @@
-'''
-File: generate_vocab_dict.py
-Author: Yutong Dai (rothdyt@gmail.com)
-File Created: Saturday, 2018-11-17 14:39
-Last Modified: Saturday, 2018-11-17 14:39
---------------------------------------------
-Desscription:
-'''
-
 # Reference <https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/03-advanced/image_captioning/build_vocab.py#L8>
 
 
